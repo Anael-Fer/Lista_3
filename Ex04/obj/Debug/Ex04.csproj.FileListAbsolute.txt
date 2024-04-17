@@ -1,0 +1,8 @@
+C:\Faculdade PUC Minas\Lista_03\Ex04\bin\Debug\Ex04.exe.config
+C:\Faculdade PUC Minas\Lista_03\Ex04\bin\Debug\Ex04.exe
+C:\Faculdade PUC Minas\Lista_03\Ex04\bin\Debug\Ex04.pdb
+C:\Faculdade PUC Minas\Lista_03\Ex04\obj\Debug\Ex04.csproj.AssemblyReference.cache
+C:\Faculdade PUC Minas\Lista_03\Ex04\obj\Debug\Ex04.csproj.SuggestedBindingRedirects.cache
+C:\Faculdade PUC Minas\Lista_03\Ex04\obj\Debug\Ex04.csproj.CoreCompileInputs.cache
+C:\Faculdade PUC Minas\Lista_03\Ex04\obj\Debug\Ex04.exe
+C:\Faculdade PUC Minas\Lista_03\Ex04\obj\Debug\Ex04.pdb
