@@ -1,32 +1,33 @@
-﻿
-using System;
+﻿using System;
 
-namespace Lista_03
+namespace Ex08
 {
-
-    class Program
+    internal class Program
     {
         static void Main(string[] args)
         {
-            int x, y, i;          
-            
-            Console.WriteLine("Informe um número impar");
-            x = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Informe outro número impar");
-            y = int.Parse(Console.ReadLine());
+            int i, n, F1, F2, proximo;
 
-            i = x;
+            F1 = 0;
+            F2 = 1;
+            i = 0;
+            proximo = 0;
 
-            Console.WriteLine("A sequência de números são: ");
+            Console.WriteLine("Digite o número limite para a sequência de Fibonacci que deseja imprimir: ");
+            n = int.Parse(Console.ReadLine());
 
-            while (i <= y)
+            while (proximo < n)
             {
-                  
-                Console.WriteLine(i.ToString());
-                i += 2;
+                proximo = F1 + F2;
 
+                if (proximo < n)
+                    Console.Write($"{proximo}");
+
+                F1 = F2;
+                F2 = proximo;
             }
+            Console.WriteLine();
 
             Console.ReadLine();
         }
